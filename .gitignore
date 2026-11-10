@@ -1,0 +1,23 @@
+# Ambiente virtual do Python (cada um cria o seu)
+.venv/
+venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Segredos: chaves de API, senhas. Use o .env.example como modelo.
+.env
+
+# Dados brutos e arquivos grandes ficam fora do Git
+dados/brutos/
+*.parquet
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Arquivos do sistema e de editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
